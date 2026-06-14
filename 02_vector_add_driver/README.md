@@ -14,4 +14,4 @@
 ```C++
 checkCudaErrors(cuInit(0));
 ```
-
+* 需要修改 `makefile` 文件 来适应不同的 GPU
