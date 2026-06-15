@@ -8,6 +8,8 @@
 #include <nvrtc_helper.h>
 
 int main(int argc, char **argv){
+    // cubin 保存运行时编译出来的 CUBIN 代码
+    // kernel_file 保存 vectorAdd_kernel.cu 路径
     char *cubin, *kernel_file;
     size_t cubinSize;
     kernel_file = sdkFindFilePath("vectorAdd_kernel.cu", argv[0]);
